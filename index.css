@@ -1,0 +1,71 @@
+body,
+html{
+    background-color: black;
+}
+header{
+    background-color: grey;
+    color:black;
+    height: 100px;
+    line-height: 100px;
+    margin-top:-10px;
+    margin-bottom: 15px;
+}
+header>h1{
+    text-align: center;
+}
+span{
+    color: blue;
+}
+.box{
+    display: inline-flex;
+    gap: 32;
+    /* width: auto; */
+    padding-top: 10px;
+    padding-left: 15%;
+    background-color: lightgrey;
+}
+.box>.details>h2{
+    font-size: 60px;
+    margin-left: 10px;
+}
+.Section{
+    margin: 10px;
+}
+
+.Videos{  
+    background-color: lightgray;
+    display: flex;
+    gap: 32;
+    padding-left: 5%;
+}
+video{
+    width: 500px;
+    height: 400px;
+    border: 2px solid blue;
+}
+button{
+    margin-left: 50%;
+}
+button:hover{
+    background-color: black;
+    color: blue;
+    border-radius: 30%;
+}
+footer{
+    background-color: grey;
+    color:black;
+    height: 100px;
+}
+.SocialMedias,
+h4{
+    display: flex;
+    margin-left: 40%;   
+}
+.SocialMedias>ul>li{
+    display: inline;
+    padding: 5px;
+}
+.fa:hover{
+    color: red;
+    font-size: 20px;
+}
